@@ -1,0 +1,9 @@
+Module
+  name: customWindow
+  description: A panel for a jump moveing button
+  author: Rui
+  website: 
+  sandboxed: true
+  scripts: [ my_panel.lua ]
+  @onLoad: init()
+  @onUnload: terminate()

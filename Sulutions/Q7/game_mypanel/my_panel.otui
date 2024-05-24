@@ -1,0 +1,17 @@
+MainWindow
+  id: customWindow
+  size: 300 200
+  
+  Panel
+    id: MyWidget
+    size: 300 200
+    
+    Button
+      id: jumpButton
+      text: "Jump!"
+      margin-bottom: 10
+      size: 50 30  
+      margin-bottom: 10
+      anchors.top: parent.top
+      anchors.left: parent.left
+      @onClick: MyPanel.onButtonClick 
